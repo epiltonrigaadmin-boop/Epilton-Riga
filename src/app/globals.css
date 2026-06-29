@@ -1043,6 +1043,16 @@ h1 {
   }
 }
 
+@media (max-width: 900px) and (min-width: 721px) {
+  .specialist-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .specialist-card {
+    grid-template-columns: minmax(180px, 220px) minmax(0, 1fr);
+  }
+}
+
 @media (max-width: 720px) {
   .container {
     width: min(100% - 28px, 1120px);
