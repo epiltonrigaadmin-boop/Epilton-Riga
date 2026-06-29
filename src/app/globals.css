@@ -596,7 +596,7 @@ h1 {
 
 .service-image {
   position: relative;
-  aspect-ratio: 3 / 2;
+  height: 244px;
   flex: 0 0 auto;
   background: var(--blush);
 }
@@ -1324,7 +1324,7 @@ h1 {
   }
 
   .service-image {
-    aspect-ratio: 16 / 10;
+    height: 220px;
   }
 
   .service-body {
@@ -1356,7 +1356,7 @@ h1 {
   }
 
   .service-image {
-    aspect-ratio: 16 / 10;
+    height: 190px;
   }
 
   .specialist-card {
@@ -1371,11 +1371,13 @@ h1 {
 
 @media (max-width: 560px) {
   .service-image {
+    height: auto;
     aspect-ratio: 16 / 10;
   }
 
   .service-card-5 .service-image {
-    aspect-ratio: 16 / 10;
+    height: 220px;
+    aspect-ratio: auto;
   }
 
   .service-card-5 .service-image img {
