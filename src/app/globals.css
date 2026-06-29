@@ -1044,6 +1044,12 @@ h1 {
 }
 
 @media (max-width: 900px) and (min-width: 721px) {
+  .hero-media {
+    width: min(100%, 520px);
+    min-height: 0;
+    margin: 0 auto;
+  }
+
   .specialist-grid {
     grid-template-columns: 1fr;
   }
