@@ -1357,6 +1357,15 @@ h1 {
   .service-image {
     height: 190px;
   }
+
+  .specialist-card {
+    grid-template-columns: minmax(180px, 220px) minmax(0, 1fr);
+    align-items: center;
+  }
+
+  .specialist-photo {
+    max-height: none;
+  }
 }
 
 @media (max-width: 560px) {
