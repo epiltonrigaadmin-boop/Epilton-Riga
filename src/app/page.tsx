@@ -509,10 +509,10 @@ export default function Home() {
             <h2>{lang === "ru" ? "Процедуры для красоты и уверенности" : "Procedūras skaistumam un pārliecībai"}</h2>
           </div>
           <div className="service-grid">
-            {content.services.map((service) => {
+            {content.services.map((service, index) => {
               const item = localized(service, lang) as { title: string; description: string; price: string };
               return (
-                <article className="service-card" key={item.title}>
+                <article className={`service-card service-card-${index + 1}`} key={item.title}>
                   <div className="service-image">
                     <ImageBlock src={service.image_url} alt={item.title} />
                   </div>

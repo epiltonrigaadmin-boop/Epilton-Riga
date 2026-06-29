@@ -1374,6 +1374,15 @@ h1 {
     height: auto;
     aspect-ratio: 16 / 10;
   }
+
+  .service-card-5 .service-image {
+    height: 220px;
+    aspect-ratio: auto;
+  }
+
+  .service-card-5 .service-image img {
+    object-position: 50% 36%;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
