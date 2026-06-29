@@ -1051,17 +1051,7 @@ h1 {
   }
 }
 
-@media (max-width: 970px) and (min-width: 901px) {
-  #specialists {
-    padding-bottom: 12px;
-  }
-
-  #booking {
-    padding-top: 24px;
-  }
-}
-
-@media (max-width: 900px) and (min-width: 721px) {
+@media (max-width: 970px) and (min-width: 721px) {
   .specialist-grid {
     grid-template-columns: 1fr;
   }
