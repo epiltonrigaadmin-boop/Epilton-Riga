@@ -1043,7 +1043,7 @@ h1 {
   }
 }
 
-@media (max-width: 1080px) and (min-width: 721px) {
+@media (max-width: 900px) and (min-width: 721px) {
   .specialist-grid {
     grid-template-columns: 1fr;
   }
