@@ -1041,6 +1041,14 @@ h1 {
   .price-tabs button {
     min-width: 0;
   }
+
+  #specialists {
+    padding-bottom: 42px;
+  }
+
+  #booking {
+    padding-top: 42px;
+  }
 }
 
 @media (max-width: 900px) and (min-width: 721px) {
